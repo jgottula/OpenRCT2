@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openrct2-dll", "src\openrct2-dll\openrct2-dll.vcxproj", "{7B8DB129-79EF-417E-B372-8A18E009D261}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -70,13 +70,9 @@ Global
 		{D24D94F6-2A74-480C-B512-629C306CE92F}.Release|x64.ActiveCfg = Release|x64
 		{D24D94F6-2A74-480C-B512-629C306CE92F}.Release|x64.Build.0 = Release|x64
 		{62B020FA-E4FB-4C6E-B32A-DC999470F155}.Debug|Win32.ActiveCfg = Debug|Win32
-		{62B020FA-E4FB-4C6E-B32A-DC999470F155}.Debug|Win32.Build.0 = Debug|Win32
 		{62B020FA-E4FB-4C6E-B32A-DC999470F155}.Debug|x64.ActiveCfg = Debug|x64
-		{62B020FA-E4FB-4C6E-B32A-DC999470F155}.Debug|x64.Build.0 = Debug|x64
 		{62B020FA-E4FB-4C6E-B32A-DC999470F155}.Release|Win32.ActiveCfg = Release|Win32
-		{62B020FA-E4FB-4C6E-B32A-DC999470F155}.Release|Win32.Build.0 = Release|Win32
 		{62B020FA-E4FB-4C6E-B32A-DC999470F155}.Release|x64.ActiveCfg = Release|x64
-		{62B020FA-E4FB-4C6E-B32A-DC999470F155}.Release|x64.Build.0 = Release|x64
 		{8DD8AB7D-2EA6-44E3-8265-BAF08E832951}.Debug|Win32.ActiveCfg = Debug|Win32
 		{8DD8AB7D-2EA6-44E3-8265-BAF08E832951}.Debug|Win32.Build.0 = Debug|Win32
 		{8DD8AB7D-2EA6-44E3-8265-BAF08E832951}.Debug|x64.ActiveCfg = Debug|x64
@@ -104,5 +100,8 @@ Global
 		{62B020FA-E4FB-4C6E-B32A-DC999470F155} = {480B577D-4E4A-4757-9A42-28A9AD33E6B0}
 		{8DD8AB7D-2EA6-44E3-8265-BAF08E832951} = {2202A816-377D-4FA0-A7AF-7D4105F8A4FB}
 		{B6808F71-30B4-4499-8FF6-0B1C86391842} = {2202A816-377D-4FA0-A7AF-7D4105F8A4FB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {112ACD89-8E31-40B4-AE18-98FD482E0521}
 	EndGlobalSection
 EndGlobal

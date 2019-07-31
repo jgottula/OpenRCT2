@@ -1656,6 +1656,7 @@ bool staff_set_colour(uint8 staffType, colour_t value)
 
 uint32 staff_get_available_entertainer_costumes()
 {
+#if 0
     uint32 entertainerCostumes = 0;
     for (sint32 i = 0; i < MAX_SCENERY_GROUP_OBJECTS; i++)
     {
@@ -1673,6 +1674,8 @@ uint32 staff_get_available_entertainer_costumes()
     entertainerCostumes |= (1 << ENTERTAINER_COSTUME_PANDA) | (1 << ENTERTAINER_COSTUME_TIGER) | (1 << ENTERTAINER_COSTUME_ELEPHANT);
 
     return entertainerCostumes;
+#endif
+	return ENTERTAINER_COSTUME_ELEPHANT;
 }
 
 sint32 staff_get_available_entertainer_costume_list(uint8 * costumeList)
